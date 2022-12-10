@@ -5,7 +5,7 @@ on:
     types: [published]
 
 jobs: 
-test_branch:
+  test_branch:
     name: Test Branch
     runs-on: ubuntu-latest
     steps:
